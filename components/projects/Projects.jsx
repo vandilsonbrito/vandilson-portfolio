@@ -10,11 +10,16 @@ export default function Projects() {
     const [reversedPersonalProjects, setReversedPersonalProjects] = useState([]);
     const [reversedOthersProjects, setReversedOthersProjects] = useState([]);
     const [displayProjects, setDisplayProjects] = useState(1);
+    const [loading, setLoading] = useState(true);
+
     useEffect(() => {
         setReversedProfessionalProjects(data.projects.professional.reverse());
         setReversedPersonalProjects(data.projects.personal.reverse());
         setReversedOthersProjects(data.projects.others.reverse());
     }, [])
+    useEffect(() => {
+        if(data) setLoading(false)
+    }, [setLoading])
 
     const selectedProjects = {
         1: reversedProfessionalProjects,
@@ -45,19 +50,26 @@ export default function Projects() {
                 >Outros</button>
             </div>
 
+   
             <section className='w-full max-w-[1500px] h-full flex flex-col justify-center items-center gap-10 xl:gap-16 mt-16 sm:px-20 lg:px-32 xl:px-16'>
-                {
+                { loading ? 
+                    (
+                        <div className='w-full h-[600px] flex flex-col justify-center items-center'>Loading...</div>
+                    )
             
-                    selectedProjects[displayProjects].map((project, index) => (
-                        <ProjectContainer 
-                            key={index}
-                            projectName={project.projectName}
-                            description={project.description}
-                            imageSrc={project.imageSrc}
-                            deployUrl={project.deployUrl}
-                            githubUrl={project.githubUrl}
-                        /> 
-                ))  
+                :   
+                    (   
+                        selectedProjects[displayProjects].map((project, index) => (
+                            <ProjectContainer
+                                key={index}
+                                projectName={project.projectName}
+                                description={project.description}
+                                imageSrc={project.imageSrc}
+                                deployUrl={project.deployUrl}
+                                githubUrl={project.githubUrl}
+                            />
+                        ))
+                    )
                 }
             </section>
         </section>

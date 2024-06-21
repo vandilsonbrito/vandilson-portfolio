@@ -54,13 +54,17 @@ export default function Projects() {
             <section className='w-full max-w-[1500px] h-full flex flex-col justify-center items-center gap-10 xl:gap-16 mt-16 sm:px-20 lg:px-32 xl:px-16'>
                 { loading ? 
                     (
-                        <div className='w-full h-[600px] flex flex-col justify-center items-center'>Loading...</div>
+                        <div className="w-full h-full min-h-screen flex flex-col justify-center items-center">
+                            <span className="loader"></span>
+                        </div>
                     )
             
                 :   
                     (   
                         selectedProjects[displayProjects].map((project, index) => (
-                            <ProjectContainer
+                            project ? 
+                            (
+                                <ProjectContainer
                                 key={index}
                                 projectName={project.projectName}
                                 description={project.description}
@@ -68,6 +72,15 @@ export default function Projects() {
                                 deployUrl={project.deployUrl}
                                 githubUrl={project.githubUrl}
                             />
+                            )
+                            :
+                            (
+                                <>
+                                    <div className="w-full h-full min-h-screen flex flex-col justify-center items-center">
+                                        <span  className="loader"></span>
+                                    </div>
+                                </>
+                            )
                         ))
                     )
                 }

@@ -29,8 +29,8 @@
                 {
                     "projectName": "Delícias da Casa Delivery",
                     "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/delicias-da-casa_oi4pcg.webp",
-                    "description": "O site Delícias da Casa oferece delivery de lanches, incluindo pagamento por cartão via integração com Stripe. Tecnologias usadas: React (Hooks, Router, Scroll, Context API), Tailwind CSS, Stripe, Node.js e Express. Aprendizado de UX/UI com design feito no Figma e gerenciamento de estado com useContext. Desafios incluíram integração do Stripe (pois é necessário conhecimento de back-end) e deploy online do servidor (importância da configuração de variáveis de ambiente).",
-                    "deployUrl": "https://delicias-da-casa.netlify.app/",
+                    "description": "O site Delícias da Casa oferece delivery de lanches, incluindo pagamento por cartão via integração com Stripe. Tecnologias usadas: React (Hooks, Router, Scroll, Context API), Tailwind CSS, Stripe, Node.js e Express. Aprendizado de UX/UI com design feito no Figma e gerenciamento de estado com useContext. Desafios incluíram integração do Stripe (pois é necessário conhecimento de back-end). Para teste, usar nº cartão '4242 4242 4242 4242' e qualquer outro nº para Expire Date e CVV",
+                    "deployUrl": "https://delicias-da-casa.vercel.app/",
                     "githubUrl": "https://github.com/vandilsonbrito/delicias-da-casa-website"
                 
                 }

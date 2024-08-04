@@ -1,7 +1,9 @@
 'use client';
 import { Link } from 'react-scroll';
+import {useTranslations} from 'next-intl';
 
 export default function Banner() {
+  /* const t = useTranslations('Home'); */
   
   return (
     <section className='w-full h-full min-h-screen flex flex-col justify-center  px-10 lg:px-20 2xl:px-40 ' id='/banner'>

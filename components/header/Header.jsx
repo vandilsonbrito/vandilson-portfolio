@@ -1,11 +1,38 @@
+'use client';
 import { FaLinkedin  } from "react-icons/fa";
 import { FaSquareInstagram, FaFile } from "react-icons/fa6";
 import { SiGithub } from "react-icons/si";
 import { IoIosMail } from "react-icons/io";
-
+import { useEffect, useState } from "react";
+import { Link, usePathname, useRouter } from "@/navigation";
 
 export default function Header() {
+    const pathname = usePathname();
+    const router = useRouter();
+    const [cookieValue, setCookieValue] = useState();
+    useEffect(() => {
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+        setCookieValue(getCookie('NEXT_LOCALE'));
+    }, [])
+    const [languageOption, setLanguageOption] = useState(cookieValue || 'pt');
+    console.log('cookieValue', cookieValue);
+    console.log('languageOption', languageOption);
 
+    /* useEffect(() => {
+        router.push(pathname, { locale: 'pt' });
+    }, [pathname, router]) */
+
+    const handleLanguageChange = (e) => {
+        const value = e.target.value;
+
+        setLanguageOption(value);
+        router.push(pathname, { locale: value });
+    }
+    
     return (
         <header className='w-full h-16 px-5 md:px-20 flex justify-between items-center shadow-sm bg-white text-black fixed z-50'>
             <div className="w-20 h-full flex flex-col justify-center items-center relative left-2 font-medium">
@@ -68,7 +95,14 @@ export default function Header() {
                             >CV</span>
                         </a>
                     </li>
-                        
+                    <li>
+                        <form className='text-lg font-semibold border-2 border-black rounded-sm '>
+                            <select onChange={(e) => handleLanguageChange(e)} value={languageOption}>
+                                <option value="pt">PT</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </form>
+                    </li>
                 </ul>
             </nav>
         </header>

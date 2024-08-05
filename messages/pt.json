@@ -1,10 +1,35 @@
 {
     "Home": {
       "Banner": {
-        "title": "Olá, me chamo Vandilson Brito, Sou Front-end Web Developer.",
+        "title": { 
+            "part1": "Olá, ",
+            "part2": "Me chamo ",
+            "part3": "Vandilson Brito ",
+            "part4": "e sou Front-end Web Developer."
+         },
         "button": {
             "text": "Saiba mais"
         }
+      },
+      "About": {
+        "title": "Sobre Mim", 
+        "description": {
+            "part1": "Sou um desenvolvedor web front-end com um ano de experiência e com foco em criar aplicações web inovadoras, responsivas e amigáveis ao usuário.",
+            "part2": "<p>Sou bacharel Interdisciplinar em Ciência e Tecnologia pela Universidade Federal da Bahia. Onde pude dar os meus primeiros passos na programação e aprender Inglês, uma habilidade fundamental nos dias de hoje.</p>",
+            "part3": "Com  o Inglês e a vontade instríseca de viajar o mundo, tive a oportunidade de fazer um intercâmbio cultural pela Europa em 2021, fazendo trabalhos voluntários, tendo uma imersão na cultura local e desenvolvendo o Inglês. Foi uma experiência muito enriquecedora, ainda mais por ter 22 anos e estar viajando sozinho. Aprendi muito sobre pessoas e o quão é importante o respeito e empatia com o outro."
+        }
+    },
+    "Skills": {
+      "soft-skills": {
+        "skill1": "Inglês",
+        "skill2": "Autodidata",
+        "skill3": "Boa Comunicação",
+        "skill4": "Trabalho em Equipe",
+        "skill5": "Inteligência Emocional"
       }
+    },
+    "Contacts": {
+      "title": "Contato"
     }
+  }
 }

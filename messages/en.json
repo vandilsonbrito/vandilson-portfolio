@@ -1,10 +1,35 @@
 {
     "Home": {
       "Banner": {
-        "title": "Hello there, I'm Vandilson Brito, I'm Front-end Web Developer.",
+        "title": { 
+            "part1": "Hello, ",
+            "part2": "My name is ",
+            "part3": "Vandilson Brito ",
+            "part4": "and I'm Front-end Web Developer."
+         },
         "button": {
             "text": "Read more"
         }
+      },
+      "About": {
+        "title": "About Me", 
+        "description": {
+            "part1": "I'm a front-end web developer with one year of experience, focusing on creating innovative, responsive, and user-friendly web applications.",
+            "part2": "I hold a bachelor's degree in Interdisciplinary in Science and Technology from Universidade Federal da Bahia, where I began learning about algorithms, coding, and learning English.",
+            "part3": "With my passion for world travel and English B2, I had the opportunity to participate in a cultural exchange in Europe in 2021. During this time, I volunteered, immersed myself in the local culture, and further developed my English skills. It was an enriching experience, especially at 22 years old and traveling alone. I learned a lot about people and the importance of respect and empathy."
+        }
+    },
+    "Skills": {
+      "soft-skills": {
+        "skill1": "English",
+        "skill2": "Self-taught",
+        "skill3": "Good communication",
+        "skill4": "Team work",
+        "skill5": "Emotional intelligence"
       }
+    },
+    "Contacts": {
+      "title": "Contact"
     }
+  }
 }

@@ -9,22 +9,17 @@ import { Link, usePathname, useRouter } from "@/navigation";
 export default function Header() {
     const pathname = usePathname();
     const router = useRouter();
-    const [cookieValue, setCookieValue] = useState();
+    const [languageOption, setLanguageOption] = useState();
     useEffect(() => {
         function getCookie(name) {
             const value = `; ${document.cookie}`;
             const parts = value.split(`; ${name}=`);
             if (parts.length === 2) return parts.pop().split(';').shift();
         }
-        setCookieValue(getCookie('NEXT_LOCALE'));
+        setLanguageOption(getCookie('NEXT_LOCALE'));
     }, [])
-    const [languageOption, setLanguageOption] = useState(cookieValue || 'pt');
-    console.log('cookieValue', cookieValue);
+    
     console.log('languageOption', languageOption);
-
-    /* useEffect(() => {
-        router.push(pathname, { locale: 'pt' });
-    }, [pathname, router]) */
 
     const handleLanguageChange = (e) => {
         const value = e.target.value;
@@ -97,7 +92,7 @@ export default function Header() {
                     </li>
                     <li>
                         <form className='text-lg font-semibold border-2 border-black rounded-sm '>
-                            <select onChange={(e) => handleLanguageChange(e)} value={languageOption}>
+                            <select className="cursor-pointer" onChange={(e) => handleLanguageChange(e)} value={languageOption}>
                                 <option value="pt">PT</option>
                                 <option value="en">EN</option>
                             </select>

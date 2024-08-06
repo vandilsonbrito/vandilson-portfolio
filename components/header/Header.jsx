@@ -5,6 +5,7 @@ import { SiGithub } from "react-icons/si";
 import { IoIosMail } from "react-icons/io";
 import { useEffect, useState } from "react";
 import { Link, usePathname, useRouter } from "@/navigation";
+import './header.css'
 
 export default function Header() {
     const pathname = usePathname();
@@ -18,8 +19,6 @@ export default function Header() {
         }
         setLanguageOption(getCookie('NEXT_LOCALE'));
     }, [])
-    
-    console.log('languageOption', languageOption);
 
     const handleLanguageChange = (e) => {
         const value = e.target.value;
@@ -91,7 +90,7 @@ export default function Header() {
                         </a>
                     </li>
                     <li>
-                        <form className='text-lg font-semibold border-2 border-black rounded-sm '>
+                        <form className='text-lg font-semibold '>
                             <select className="cursor-pointer" onChange={(e) => handleLanguageChange(e)} value={languageOption}>
                                 <option value="pt">PT</option>
                                 <option value="en">EN</option>

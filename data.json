@@ -1,96 +1,56 @@
 { 
     "projects":
         {
-           "professional": [
+           "1": [
+                {
+                    "projectName": "Best Travel",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905972/portfolio/pbh8gensyq8wr3dt7yfx.webp",
+                    "description": "Projects.project1.description",
+                    "deployUrl": "https://best-travel-omega.vercel.app/",
+                    "githubUrl": "https://github.com/vandilsonbrito/best-travel"
+                
+                },
+                {
+                    "projectName": "Delícias da Casa Delivery",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905523/portfolio/bhahmoqo7rjo19ssfvuq.webp",
+                    "description": "Projects.project2.description",
+                    "deployUrl": "https://delicias-da-casa.vercel.app/",
+                    "githubUrl": "https://github.com/vandilsonbrito/delicias-da-casa-website"
+                
+                },  
+                {
+                    "projectName": "Professor Janilton Website",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905524/portfolio/gi1uym1vovuqepizzvv3.webp",
+                    "description": "Projects.project3.description",
+                    "deployUrl": "https://profjanilton.com.br/",
+                    "githubUrl": "https://github.com/vandilsonbrito/janilton-website"
+                
+                }
+           ],
+           "2": [
                 {
                     "projectName": "Professora Patrícia Website",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/patricia-website_p1rkzg.webp",
-                    "description": "O website é um espaço para a professora mentora Patrícia apresentar seu trabalho. Além, de vender produtos digitais e divulgar o seu canal do YouTube. Tecnologias usadas foram React (Router, Scroll, Helmet) + Tailwind CSS + Swiper JS. Pus em prática técnincas de SEO com a lib 'react-helmet-async', uso de imagens processadas para otimização de tamanho, incorporei o site na busca do Google o 'google-site-verification' e fiz todo o processo de compra de domínio e configuração de DNS.",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905524/portfolio/jdgyyjz7hutqxtqnezea.webp",
+                    "description": "Projects.project4.description",
                     "deployUrl": "https://profapatriciacruz.com.br/",
                     "githubUrl": "https://github.com/vandilsonbrito/patricia-website"
                 
                 },
                 {
-                    "projectName": "Professor Janilton Website",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658367/janilton-website_tgl7s7.webp",
-                    "description": "O website é um espaço para o professor ser conhecido pelo público e autar como criador de conteúdo divulgando seus artigos e vendas de produtos digitais relacionados a educação. Foram usadas as tecnologias: React (Router, Scroll, Context API) + Tailwind CSS + Prismic CMS +  Static Forms + Swiper JS. Aprendi como fazer integração com o Prismic (CMS), no qual o professor poderá escrever seus artigos e publicá-los. Aprendi como colocar um site na busca do Google e fazendo todo o processo de compra de domínio, configuração de DNS e práticas de SEO.",
-                    "deployUrl": "https://profjanilton.com.br/",
-                    "githubUrl": "https://github.com/vandilsonbrito/janilton-website"
-                
-                },
-                {
                     "projectName": "Newsletter",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/newsletter_vkvjx6.webp",
-                    "description": "Essa é uma página de inscrição de uma newsletter, alternativa de marketing muito interessante. Foram usadas as tecnologias React + Tailwind CSS + MailChimp. Foi bem prazeroso compreender como criar uma newsletter. O MailChimp é uma alternativa bem interessante para gerenciar esse envio e pude aprender como integrar o MailChimp ao React, extraindo os dados do formulário e enviando para o MailChimp.",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905524/portfolio/jremswedc8qgpcczsnft.webp",
+                    "description": "Projects.project5.description",
                     "deployUrl": "https://newsletter-bem-estar-e-saude.netlify.app",
                     "githubUrl": "https://github.com/vandilsonbrito/newsletter/"
                 
                 },
                 {
-                    "projectName": "Delícias da Casa Delivery",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/delicias-da-casa_oi4pcg.webp",
-                    "description": "O site Delícias da Casa oferece delivery de lanches, incluindo pagamento por cartão via integração com Stripe. Tecnologias usadas: React (Hooks, Router, Scroll, Context API), Tailwind CSS, Stripe, Node.js e Express. Aprendizado de UX/UI com design feito no Figma e gerenciamento de estado com useContext. Desafios incluíram integração do Stripe (pois é necessário conhecimento de back-end). Para teste, usar nº cartão '4242 4242 4242 4242' e qualquer outro nº para Expire Date e CVV",
-                    "deployUrl": "https://delicias-da-casa.vercel.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/delicias-da-casa-website"
-                
-                }
-           ],
-           "personal": [
-                {
-                    "projectName": "To Do List",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658367/to-do-list_ynqeqf.webp",
-                    "description": "Esse é um To Do project. No qual é possivel adicionar tarefas, marcar como feitas, excluí-las, editá-las, filtrá-las e pesquisá-las. Todas essas operações são salvas no localstorage do navegador. Aprendi de maneira prática como criar/atualizar/excluir elementos do DOM de maneira dinâmica. Além do Create, Read, Update, Delete (CRUD) com o localstorage, pude colocar em prática como funciona um filtro. Tecnologias utilizadas foram HTML + CSS + JS + LocalStorage (CRUD)",
-                    "deployUrl": "https://todo-project-localstorage.netlify.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/to-do-project"
-                
-                },{
-                    "projectName": "YouTube Landing Page Clone",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/youtube-landing-page_czebhp.webp",
-                    "description": "É um clone da landingpage do YouTube com a barra de pesquisa e inputs sugeridos abaixo da barra de pesquisa. Ambos os inputs funcionam para buscar vídeos no 'database' do YouTube através da API do YB. Foi bem desafiador  conseguir a integração com a API do Youtube e consequentemente prazeroso. As Tecnologias usadas foram HTML + Tailwind CSS + YouTube API + JS (Fetch API)",
-                    "deployUrl": "https://youtube-landingpage1.netlify.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/youtube-landing-page"
-                
-                },{
-                    "projectName": "Wiki Suits",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658365/wiki-suits_rmbsdz.webp",
-                    "description": "O Wiki Suits é um wiki para os fãs da série Suits, no qual, os fãs podem ver os principais personagens e ao clicar nos cards dos personagens ver todo um resumo da história e outras curiosidades do personagem. Tecnologias usadas foram React + React Router + Tailwind CSS",
-                    "deployUrl": "https://wiki-suits.netlify.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/wiki-suits"
-                
-                }
-           ],
-           "others": [
-                {
-                    "projectName": "Tip Calculator App",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/tip-calculator_atwijd.webp",
-                    "description": "Esse aplicação calcula a gorjeta que será dada ao garçom/atendente. Preenchendo os inputs de valor da conta, porcentagem da gorjeta e número de pessoas, o app mostrará qual o valor da gorjeta e quando cada pessoa pagará. Pude praticar interação de JS com o DOM e recuperar valor de input em tempo real. Foram usadas as tecnologias: HTML + Tailwind CSS + JS",
-                    "deployUrl": "https://tip-calculator-by-vandilson.netlify.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/Projects-Frontendmentor/tree/main/25-tip-calculator-app"
-                
-                },
-                {
-                    "projectName": "Weather APP",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658367/weather-app_zf36nv.webp",
-                    "description": "Essa é uma aplicação que mostra informações sobre o clima de dada cidade/região. Informações essas como umidade, velocidade do vento e descrição do clima (ensolarado, chovendo...). Essa aplicação consome a Weather API para mostrar esses dados. Pude praticar o consumo de API Restful passando o input como parâmetro na requisição da chamada para a API e exibir a resposta dos dados requeridos na tela Tecnologias utilizadas foram HTML + Tailwind CSS + JS + WeatherAPI",
-                    "deployUrl": "https://weather-app-by-vandilson.netlify.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/weatherApp"
-                
-                },{
-                    "projectName": "Sneaker Page",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1714658366/sneaker-page_xhytai.webp",
-                    "description": "Essa é uma página específica de um tênis. Nela é possivel ver o produto de diferentes ângulos clicando nas thumbnails e uma visão mais 'clean' ao clicar na imagem maior do produto. É também possível adicionar a quantidade desejada de produtos no carrinho e excluí-los do mesmo. Tecnologias usadas foram React (Hooks) + Context API + Tailwind CSS + Swiper JS",
-                    "deployUrl": "https://sneaker-product1.netlify.app/",
-                    "githubUrl": "https://github.com/vandilsonbrito/Projects-Frontendmentor/tree/main/29-ecommerce-product-page-main"
-                
-                },
-                {
                     "projectName": "Multi Step Form",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1715114711/multi-step-form_lidrir.webp",
-                    "description": "Essa aplicação é um formulário com múltiplos passos. O desafio aqui foi construir a primeira aplicação com o pré-processador CSS chamado Sass, react-hook-form e gerenciar os estados com Context API. Tecnologias usadas: React (Hooks, Context API, react-hook-form) + Sass",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905561/portfolio/jxdo60fhpdndltvwyg91.webp",
+                    "description": "Projects.project6.description",
                     "deployUrl": "https://multi-step-form-by-vandilson.netlify.app/",
                     "githubUrl": "https://github.com/vandilsonbrito/multi-step-form"
-                
-                }
+                }     
            ]
         }
 }

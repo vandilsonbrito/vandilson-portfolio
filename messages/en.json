@@ -19,6 +19,32 @@
             "part3": "With my passion for world travel and English B2, I had the opportunity to participate in a cultural exchange in Europe in 2021. During this time, I volunteered, immersed myself in the local culture, and further developed my English skills. It was an enriching experience, especially at 22 years old and traveling alone. I learned a lot about people and the importance of respect and empathy."
         }
     },
+    "Projects": {
+      "title": "Projects",
+      "buttons": {
+        "buttonDemo": "See Demo",
+        "buttonCode": "See Code"
+      },
+      "project1": {
+        "description": "This application is an online flight booking search tool. It allows users to search for flights and book them (test mode). Once booked, users receive an email with the booking details. It was built using the Amadeus API (test mode), TypeScript, React.js (with react-query, react-hook-form, react-toastify, and react-slick), Tailwind CSS, Next.js, Zustand, and EmailJS. This project gave me the opportunity to practice TypeScript, Zustand, and TanStack Query (react-query) for the first time."
+      },
+      "project2": {
+        "description": "The Delícias da Casa website functions as an online menu offering hamburgers and sandwiches, with a card payment option using Stripe. It was built with React (including Hooks, Router, Scroll, and Context API), Tailwind CSS, Stripe, Node.js, and Express. I learned about UX/UI design, created the designs in Figma, and had my first experience with state management using useContext. Challenges included integrating Stripe, which required back-end knowledge. For testing, use card number 4242 4242 4242 4242 with any expiration date and CVV."
+      },
+      "project3": {
+        "description": "The website serves as a platform for the professor to gain public recognition and act as a content creator by publishing articles and selling class plans and other digital products. It was built with React (including Router, Scroll, and Context API), Tailwind CSS, Prismic CMS, Static Forms, and Swiper JS. I learned how to integrate Prismic CMS, allowing the professor to publish articles independently. Additionally, I gained experience in making a webpage visible on Google by handling domain purchase, DNS configuration, and implementing SEO best practices."
+      },
+      "project4": {
+        "description": "The website is a place for mentor Professor Patrícia to showcase her work on academic projects mentorship and her YouTube channel. It was built with React (including Router, Scroll, and Helmet), Tailwind CSS, and Swiper JS. I practiced SEO using the react-helmet-async library, optimized image processing to reduce file size (webp), and made the website visible on Google by handling domain purchase, DNS configuration, and implementing SEO best practices."
+      },
+      "project5": {
+        "description": "This is a newsletter subscription page, an interesting marketing alternative. It was built with React, Tailwind CSS, and MailChimp. It was fascinating to understand how newsletters work. MailChimp is a powerful platform for managing email campaigns, and I learned how to integrate it with React, extracting form data and sending to MailChimp."
+      },
+      "project6": {
+        "description": "This application is a multi step form. The challenge was to learn Sass (a CSS pre-processor) and 'react-hook-form' lib, besides work with Context API. It was built with React (Hooks, Context API, react-hook-form) + Sass."
+      }
+      
+    },
     "Skills": {
       "soft-skills": {
         "skill1": "English",

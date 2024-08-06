@@ -15,9 +15,35 @@
         "title": "Sobre Mim", 
         "description": {
             "part1": "Sou um desenvolvedor web front-end com um ano de experiência e com foco em criar aplicações web inovadoras, responsivas e amigáveis ao usuário.",
-            "part2": "<p>Sou bacharel Interdisciplinar em Ciência e Tecnologia pela Universidade Federal da Bahia. Onde pude dar os meus primeiros passos na programação e aprender Inglês, uma habilidade fundamental nos dias de hoje.</p>",
+            "part2": "Sou bacharel Interdisciplinar em Ciência e Tecnologia pela Universidade Federal da Bahia. Onde pude dar os meus primeiros passos na programação e aprender Inglês, uma habilidade fundamental nos dias de hoje.",
             "part3": "Com  o Inglês e a vontade instríseca de viajar o mundo, tive a oportunidade de fazer um intercâmbio cultural pela Europa em 2021, fazendo trabalhos voluntários, tendo uma imersão na cultura local e desenvolvendo o Inglês. Foi uma experiência muito enriquecedora, ainda mais por ter 22 anos e estar viajando sozinho. Aprendi muito sobre pessoas e o quão é importante o respeito e empatia com o outro."
         }
+    },
+    "Projects": {
+      "title": "Projetos",
+      "buttons": {
+        "buttonDemo": "Ver Demo",
+        "buttonCode": "Ver Code"
+      },
+      "project1": {
+        "description": "Essa aplicação funciona como buscador de voos, permitindo também a reserva de passagens. Quando a reserva for finalizada, é enviado um e-mail com os dados da reserva para o cliente. Tecnologias usadas: Amadeus API(test mode), TypeScript, React.js (react-query, react-hook-form, react-toastify, react-slick), Tailwind CSS, Next.js, Zustand e EmailJS. Projeto serviu para iniciar o aprendizado com TypeScript, Zustand e TanStack Query (react-query)."
+      },
+      "project2": {
+        "description": "O site Delícias da Casa oferece delivery de lanches, incluindo pagamento por cartão via integração com Stripe. Tecnologias usadas: React (Hooks, Router, Scroll, Context API), Tailwind CSS, Stripe, Node.js e Express. Aprendizado de UX/UI com design feito no Figma e gerenciamento de estado com useContext. Desafios incluíram integração do Stripe (pois é necessário conhecimento de back-end). Para teste, usar nº cartão '4242 4242 4242 4242' e qualquer outro nº para Expire Date e CVV."
+      },
+      "project3": {
+        "description": "O website é um espaço para o professor ser conhecido pelo público e autar como criador de conteúdo divulgando seus artigos e vendas de produtos digitais relacionados a educação. Foram usadas as tecnologias: React (Router, Scroll, Context API) + Tailwind CSS + Prismic CMS +  Static Forms + Swiper JS. Aprendi como fazer integração com o Prismic (CMS), no qual o professor poderá escrever seus artigos e publicá-los. Aprendi como colocar um site na busca do Google e fazendo todo o processo de compra de domínio, configuração de DNS e práticas de SEO."
+      },
+      "project4": {
+        "description": "O website é um espaço para a professora mentora Patrícia apresentar seu trabalho. Além, de vender produtos digitais e divulgar o seu canal do YouTube. Tecnologias usadas foram React (Router, Scroll, Helmet) + Tailwind CSS + Swiper JS. Pus em prática técnincas de SEO com a lib 'react-helmet-async', uso de imagens processadas para otimização de tamanho, incorporei o site na busca do Google o 'google-site-verification' e fiz todo o processo de compra de domínio e configuração de DNS."
+      },
+      "project5": {
+        "description": "Essa é uma página de inscrição de uma newsletter, alternativa de marketing muito interessante. Foram usadas as tecnologias React + Tailwind CSS + MailChimp. Foi bem prazeroso compreender como criar uma newsletter. O MailChimp é uma alternativa bem interessante para gerenciar esse envio e pude aprender como integrar o MailChimp ao React, extraindo os dados do formulário e enviando para o MailChimp."
+      },
+      "project6": {
+        "description": "Essa aplicação é um formulário com múltiplos passos. O desafio aqui foi construir a primeira aplicação com o pré-processador CSS chamado Sass, react-hook-form e gerenciar os estados com Context API. Tecnologias usadas: React (Hooks, Context API, react-hook-form) + Sass."
+      }
+      
     },
     "Skills": {
       "soft-skills": {

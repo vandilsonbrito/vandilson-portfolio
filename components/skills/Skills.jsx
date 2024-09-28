@@ -42,8 +42,8 @@ export default function Skills() {
                 </div>
             </div>
 
-            <div className='w-full h-full flex justify-center mt-12 mb-10'>
-                <a className='fill-button w-56 h-[47px] border-2 border-blueGreen100 pt-2 mt-5 text-center cursor-pointer  text-xl lg:text-2xl 2xl:text-4xl font-semibold bg-gradient-to-r from-bluePrimay to-greenBlue200 to-80%  text-transparent bg-clip-text hover:text-white' href="/curriculo-vandilson.pdf" download="curriculo-vandilson.pdf" >Download CV</a>
+            <div className='w-full h-full flex justify-center mt-16 mb-10 py-1'>
+                <a className='fill-button w-60 border-2 border-blueGreen100 py-2 text-center cursor-pointer  text-xl lg:text-2xl 2xl:text-3xl font-semibold bg-gradient-to-r from-bluePrimay to-greenBlue200 to-80%  text-transparent bg-clip-text hover:text-white' href="https://drive.google.com/drive/folders/1Pq_N0tVW2XpMWtB-co5DtkLg88Tbj4uV" /* download="curriculo-vandilson.pdf" */ target="_blank" rel="noopener noreferrer">Download CV</a>
             </div>
         </section>
     )

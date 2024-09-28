@@ -20,7 +20,7 @@ export default function Banner() {
               to='/about' 
               smooth={true}
               offset={-65}
-              duration={500} className='fill-button w-40 border-2 border-blueGreen100 px-2 py-1 mt-5 text-center cursor-pointer  text-xl lg:text-2xl 2xl:text-4xl font-semibold bg-gradient-to-r from-bluePrimay to-greenBlue200 to-80%  text-transparent bg-clip-text hover:text-white'>
+              duration={500} className='fill-button border-2 border-blueGreen100 px-2 2xl:px-4 2xl:py-2 py-1 mt-5 text-center cursor-pointer  text-xl lg:text-2xl 2xl:text-4xl font-semibold bg-gradient-to-r from-bluePrimay to-greenBlue200 to-80%  text-transparent bg-clip-text hover:text-white'>
               {t('Banner.button.text')}
             </Link>
 

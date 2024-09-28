@@ -4,7 +4,7 @@ import { FaSquareInstagram, FaFile } from "react-icons/fa6";
 import { SiGithub } from "react-icons/si";
 import { IoIosMail } from "react-icons/io";
 import { useEffect, useState } from "react";
-import { Link, usePathname, useRouter } from "@/navigation";
+import { usePathname, useRouter } from "@/navigation";
 import './header.css'
 
 export default function Header() {
@@ -77,8 +77,8 @@ export default function Header() {
                     <li>
                         <a
                         className='w-fit h-full flex flex-col items-center relative'
-                        href="/curriculo-vandilson.pdf" 
-                        download="curriculo-vandilson.pdf" 
+                        href="https://drive.google.com/drive/folders/1Pq_N0tVW2XpMWtB-co5DtkLg88Tbj4uV" 
+                        /* download="curriculo-vandilson.pdf" */ 
                         target="_blank"
                         rel="noopener noreferrer"
                         >

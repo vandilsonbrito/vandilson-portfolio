@@ -32,7 +32,7 @@
         "description": "The Delícias da Casa website functions as an online menu offering hamburgers and sandwiches, with a card payment option using Stripe. It was built with React (including Hooks, Router, Scroll, and Context API), Tailwind CSS, Stripe, Node.js, and Express. I learned about UX/UI design, created the designs in Figma, and had my first experience with state management using useContext. Challenges included integrating Stripe, which required back-end knowledge. For testing, use card number 4242 4242 4242 4242 with any expiration date and CVV."
       },
       "project3": {
-        "description": "The website serves as a platform for the professor to gain public recognition and act as a content creator by publishing articles and selling class plans and other digital products. It was built with React (including Router, Scroll, and Context API), Tailwind CSS, Prismic CMS, Static Forms, and Swiper JS. I learned how to integrate Prismic CMS, allowing the professor to publish articles independently. Additionally, I gained experience in making a webpage visible on Google by handling domain purchase, DNS configuration, and implementing SEO best practices."
+        "description": "The website serves as a platform for the professor to gain public recognition and act as a content creator by publishing articles. It was built with React.js, Next.js, Tailwind CSS, Sanity CMS, Static Forms. I learned how to integrate Sanity CMS, allowing the professor to publish articles independently. Additionally, I gained experience in making a webpage visible on Google by handling domain purchase, DNS configuration, and implementing SEO best practices."
       },
       "project4": {
         "description": "The website is a place for mentor Professor Patrícia to showcase her work on academic projects mentorship and her YouTube channel. It was built with React (including Router, Scroll, and Helmet), Tailwind CSS, and Swiper JS. I practiced SEO using the react-helmet-async library, optimized image processing to reduce file size (webp), and made the website visible on Google by handling domain purchase, DNS configuration, and implementing SEO best practices."
@@ -42,6 +42,12 @@
       },
       "project6": {
         "description": "This application is a multi step form. The challenge was to learn Sass (a CSS pre-processor) and 'react-hook-form' lib, besides work with Context API. It was built with React (Hooks, Context API, react-hook-form) + Sass."
+      },
+      "project7": {
+        "description": "This application is a dashboard with global COVID-19 data. It is possible to select a country on the map and see the number of cases, graphs showing the number of cases and deaths by date from the selected country. Built with Covid-19 API, TypeScript, Next.js, Leaflet, Apexcharts, Jotai."
+      },
+      "project8": {
+        "description": "Recommendation site for the best books focusing on personal development and learning. Includes authentication, selection of favorite genres, ability to filter genres and favorite books. It has language switching functionality (PT and EN) using the i18n concept. Built with TypeScript, Next.js, Zustand, Firebase, Shadcn-ui and next-intl."
       }
       
     },

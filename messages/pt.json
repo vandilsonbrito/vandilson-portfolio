@@ -32,7 +32,7 @@
         "description": "O site Delícias da Casa oferece delivery de lanches, incluindo pagamento por cartão via integração com Stripe. Tecnologias usadas: React (Hooks, Router, Scroll, Context API), Tailwind CSS, Stripe, Node.js e Express. Aprendizado de UX/UI com design feito no Figma e gerenciamento de estado com useContext. Desafios incluíram integração do Stripe (pois é necessário conhecimento de back-end). Para teste, usar nº cartão '4242 4242 4242 4242' e qualquer outro nº para Expire Date e CVV."
       },
       "project3": {
-        "description": "O website é um espaço para o professor ser conhecido pelo público e autar como criador de conteúdo divulgando seus artigos e vendas de produtos digitais relacionados a educação. Foram usadas as tecnologias: React (Router, Scroll, Context API) + Tailwind CSS + Prismic CMS +  Static Forms + Swiper JS. Aprendi como fazer integração com o Prismic (CMS), no qual o professor poderá escrever seus artigos e publicá-los. Aprendi como colocar um site na busca do Google e fazendo todo o processo de compra de domínio, configuração de DNS e práticas de SEO."
+        "description": "O website é um espaço para o professor ser conhecido pelo público e autar como criador de conteúdo divulgando seus artigos de opinião. Foi construído com React.js, Next.js, Tailwind CSS, Sanity CMS, Static Forms. Aprendi como integrar o Sanity CMS (permitindo ao professor publicar artigos de forma independente) e como indexar um site na busca do Google, fazendo todo o processo de compra de domínio, configuração de DNS e práticas de SEO."
       },
       "project4": {
         "description": "O website é um espaço para a professora mentora Patrícia apresentar seu trabalho. Além, de vender produtos digitais e divulgar o seu canal do YouTube. Tecnologias usadas foram React (Router, Scroll, Helmet) + Tailwind CSS + Swiper JS. Pus em prática técnincas de SEO com a lib 'react-helmet-async', uso de imagens processadas para otimização de tamanho, incorporei o site na busca do Google o 'google-site-verification' e fiz todo o processo de compra de domínio e configuração de DNS."
@@ -42,6 +42,12 @@
       },
       "project6": {
         "description": "Essa aplicação é um formulário com múltiplos passos. O desafio aqui foi construir a primeira aplicação com o pré-processador CSS chamado Sass, react-hook-form e gerenciar os estados com Context API. Tecnologias usadas: React (Hooks, Context API, react-hook-form) + Sass."
+      },
+      "project7": {
+        "description": "Essa aplicação é um dashboard com dados globais da COVID-19. É possível selecionar um país no mapa e ver a quantidade de casos, gráfico mostrando o número de casos e mortes por datas do país selecionado. Feito com Covid-19 API, TypeScript, Next.js, Leaflet, Apexcharts, Jotai."
+      },
+      "project8": {
+        "description": "Site de recomendação dos melhores livros com foco no desenvolvimento e aprendizagem pessoal. Inclui autenticação, seleção de gêneros favoritos, capacidade de filtrar gêneros e livros favoritos. Possui funcionalidade de troca de idioma (PT e EN) utilizando o conceito i18n. Construído com TypeScript, Next.js, Zustand, Firebase, Shadcn-ui e next-intl."
       }
       
     },

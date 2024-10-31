@@ -38,7 +38,7 @@ export default function Header() {
                     <li>
                         <a
                         className='w-fit h-full flex flex-col items-center'
-                        href="https://www.linkedin.com/in/vandilson-brito-b791b3216/"
+                        href="https://www.linkedin.com/in/vandilson-brito-desenvolvedor-frontend/"
                         target="_blank"
                         rel="noopener noreferrer">
                             <FaLinkedin className="hover:translate-x-[2px] ease-in-out duration-200"/>
@@ -57,7 +57,7 @@ export default function Header() {
                     <li className='hidden md:visible'>
                         <a
                         className='w-fit h-full flex flex-col items-center'
-                        href="https://www.instagram.com/frontendvan/"
+                        href="https://www.instagram.com/vanprogramadorweb/"
                         target="_blank"
                         rel="noopener noreferrer"
                         >
@@ -78,7 +78,6 @@ export default function Header() {
                         <a
                         className='w-fit h-full flex flex-col items-center relative'
                         href="https://drive.google.com/drive/folders/1Pq_N0tVW2XpMWtB-co5DtkLg88Tbj4uV" 
-                        /* download="curriculo-vandilson.pdf" */ 
                         target="_blank"
                         rel="noopener noreferrer"
                         >

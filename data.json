@@ -3,13 +3,29 @@
         {
            "1": [
                 {
-                    "projectName": "Best Travel",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905972/portfolio/pbh8gensyq8wr3dt7yfx.webp",
+                    "projectName": "Recommended Book - Recomendação de Livros",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1727398815/recommend-books_ahnrdb.webp",
+                    "description": "Projects.project8.description",
+                    "deployUrl": "https://recommended-books-by-vandilson.vercel.app",
+                    "githubUrl": "https://github.com/vandilsonbrito/recommended-books"
+                
+                }, 
+                {
+                    "projectName": "Professor Janilton Website",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1725730478/janilton-website_yu76ku.webp",
+                    "description": "Projects.project3.description",
+                    "deployUrl": "https://profjanilton.com.br/",
+                    "githubUrl": "https://github.com/vandilsonbrito/janilton-website"
+                
+                },
+                {
+                    "projectName": "Best Travel - Buscador de Voos",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1727398813/best-travel-app_grdrrk.webp",
                     "description": "Projects.project1.description",
                     "deployUrl": "https://best-travel-omega.vercel.app/",
                     "githubUrl": "https://github.com/vandilsonbrito/best-travel"
                 
-                },
+                }, 
                 {
                     "projectName": "Delícias da Casa Delivery",
                     "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905523/portfolio/bhahmoqo7rjo19ssfvuq.webp",
@@ -17,17 +33,16 @@
                     "deployUrl": "https://delicias-da-casa.vercel.app/",
                     "githubUrl": "https://github.com/vandilsonbrito/delicias-da-casa-website"
                 
-                },  
-                {
-                    "projectName": "Professor Janilton Website",
-                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905524/portfolio/gi1uym1vovuqepizzvv3.webp",
-                    "description": "Projects.project3.description",
-                    "deployUrl": "https://profjanilton.com.br/",
-                    "githubUrl": "https://github.com/vandilsonbrito/janilton-website"
-                
                 }
            ],
            "2": [
+                {
+                    "projectName": "Dashboard COVID-19",
+                    "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1726632609/covid19-dasboard_m3bhxx.webp",
+                    "description": "Projects.project7.description",
+                    "deployUrl": "https://dasboard-covid-19.vercel.app/",
+                    "githubUrl": "https://github.com/vandilsonbrito/statistic-map"
+                },
                 {
                     "projectName": "Professora Patrícia Website",
                     "imageSrc": "https://res.cloudinary.com/ds7cszkkx/image/upload/v1722905524/portfolio/jdgyyjz7hutqxtqnezea.webp",

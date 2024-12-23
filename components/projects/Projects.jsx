@@ -37,6 +37,7 @@ export default function Projects() {
                 > 2 </button>
             </div>
 
+            <p className='pt-4'>{t("Projects.description")}</p>
    
             <section className='w-full max-w-[1500px] h-full flex flex-col justify-center items-center gap-10 xl:gap-16 mt-16 sm:px-20 lg:px-32 xl:px-16'>
                 { loading ? 

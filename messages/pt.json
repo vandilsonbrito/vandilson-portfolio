@@ -25,6 +25,7 @@
         "buttonDemo": "Ver Demo",
         "buttonCode": "Ver Code"
       },
+      "description": "* Todos os projetos são de minha autoria, pensado e construído por mim. Contém projetos freelancers e pessoais.",
       "project1": {
         "description": "Essa aplicação funciona como buscador de voos, permitindo também a reserva de passagens. Quando a reserva for finalizada, é enviado um e-mail com os dados da reserva para o cliente. Tecnologias usadas: Amadeus API(test mode), TypeScript, React.js (react-query, react-hook-form, react-toastify, react-slick), Tailwind CSS, Next.js, Zustand e EmailJS. Projeto serviu para iniciar o aprendizado com TypeScript, Zustand e TanStack Query (react-query)."
       },

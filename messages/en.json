@@ -25,6 +25,7 @@
         "buttonDemo": "See Demo",
         "buttonCode": "See Code"
       },
+      "description": "* All projects were built by me. Freelancers and personal projects. ",
       "project1": {
         "description": "This application is an online flight booking search tool. It allows users to search for flights and book them (test mode). Once booked, users receive an email with the booking details. It was built using the Amadeus API (test mode), TypeScript, React.js (with react-query, react-hook-form, react-toastify, and react-slick), Tailwind CSS, Next.js, Zustand, and EmailJS. This project gave me the opportunity to practice TypeScript, Zustand, and TanStack Query (react-query) for the first time."
       },

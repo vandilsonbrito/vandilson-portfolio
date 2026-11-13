@@ -1,68 +1,117 @@
 {
-    "Home": {
-      "Banner": {
-        "title": { 
-            "part1": "Olá, ",
-            "part2": "Me chamo ",
-            "part3": "Vandilson Brito ",
-            "part4": "e sou Front-end Web Developer."
-         },
-        "button": {
-            "text": "Saiba mais"
-        }
-      },
-      "About": {
-        "title": "Sobre Mim", 
-        "description": {
-            "part1": "Sou um desenvolvedor web front-end com um ano de experiência e com foco em criar aplicações web inovadoras, responsivas e amigáveis ao usuário.",
-            "part2": "Sou bacharel Interdisciplinar em Ciência e Tecnologia pela Universidade Federal da Bahia. Onde pude dar os meus primeiros passos na programação e aprender Inglês, uma habilidade fundamental nos dias de hoje.",
-            "part3": "Com  o Inglês e a vontade instríseca de viajar o mundo, tive a oportunidade de fazer um intercâmbio cultural pela Europa em 2021, fazendo trabalhos voluntários, tendo uma imersão na cultura local e desenvolvendo o Inglês. Foi uma experiência muito enriquecedora, ainda mais por ter 22 anos e estar viajando sozinho. Aprendi muito sobre pessoas e o quão é importante o respeito e empatia com o outro."
-        }
-    },
-    "Projects": {
-      "title": "Projetos",
-      "buttons": {
-        "buttonDemo": "Ver Demo",
-        "buttonCode": "Ver Code"
-      },
-      "description": "* Todos os projetos são de minha autoria, pensado e construído por mim. Contém projetos freelancers e pessoais.",
-      "project1": {
-        "description": "Essa aplicação funciona como buscador de voos, permitindo também a reserva de passagens. Quando a reserva for finalizada, é enviado um e-mail com os dados da reserva para o cliente. Tecnologias usadas: Amadeus API(test mode), TypeScript, React.js (react-query, react-hook-form, react-toastify, react-slick), Tailwind CSS, Next.js, Zustand e EmailJS. Projeto serviu para iniciar o aprendizado com TypeScript, Zustand e TanStack Query (react-query)."
-      },
-      "project2": {
-        "description": "O site Delícias da Casa oferece delivery de lanches, incluindo pagamento por cartão via integração com Stripe. Tecnologias usadas: React (Hooks, Router, Scroll, Context API), Tailwind CSS, Stripe, Node.js e Express. Aprendizado de UX/UI com design feito no Figma e gerenciamento de estado com useContext. Desafios incluíram integração do Stripe (pois é necessário conhecimento de back-end). Para teste, usar nº cartão '4242 4242 4242 4242' e qualquer outro nº para Expire Date e CVV."
-      },
-      "project3": {
-        "description": "O website é um espaço para o professor ser conhecido pelo público e autar como criador de conteúdo divulgando seus artigos de opinião. Foi construído com React.js, Next.js, Tailwind CSS, Sanity CMS, Static Forms. Aprendi como integrar o Sanity CMS (permitindo ao professor publicar artigos de forma independente) e como indexar um site na busca do Google, fazendo todo o processo de compra de domínio, configuração de DNS e práticas de SEO."
-      },
-      "project4": {
-        "description": "O website é um espaço para a professora mentora Patrícia apresentar seu trabalho. Além, de vender produtos digitais e divulgar o seu canal do YouTube. Tecnologias usadas foram React (Router, Scroll, Helmet) + Tailwind CSS + Swiper JS. Pus em prática técnincas de SEO com a lib 'react-helmet-async', uso de imagens processadas para otimização de tamanho, incorporei o site na busca do Google o 'google-site-verification' e fiz todo o processo de compra de domínio e configuração de DNS."
-      },
-      "project5": {
-        "description": "Essa é uma página de inscrição de uma newsletter, alternativa de marketing muito interessante. Foram usadas as tecnologias React + Tailwind CSS + MailChimp. Foi bem prazeroso compreender como criar uma newsletter. O MailChimp é uma alternativa bem interessante para gerenciar esse envio e pude aprender como integrar o MailChimp ao React, extraindo os dados do formulário e enviando para o MailChimp."
-      },
-      "project6": {
-        "description": "Essa aplicação é um formulário com múltiplos passos. O desafio aqui foi construir a primeira aplicação com o pré-processador CSS chamado Sass, react-hook-form e gerenciar os estados com Context API. Tecnologias usadas: React (Hooks, Context API, react-hook-form) + Sass."
-      },
-      "project7": {
-        "description": "Essa aplicação é um dashboard com dados globais da COVID-19. É possível selecionar um país no mapa e ver a quantidade de casos, gráfico mostrando o número de casos e mortes por datas do país selecionado. Feito com Covid-19 API, TypeScript, Next.js, Leaflet, Apexcharts, Jotai."
-      },
-      "project8": {
-        "description": "Site de recomendação dos melhores livros com foco no desenvolvimento e aprendizagem pessoal. Inclui autenticação, seleção de gêneros favoritos, capacidade de filtrar gêneros e livros favoritos. Possui funcionalidade de troca de idioma (PT e EN) utilizando o conceito i18n. Construído com TypeScript, Next.js, Zustand, Firebase, Shadcn-ui e next-intl."
-      }
-      
-    },
-    "Skills": {
-      "soft-skills": {
-        "skill1": "Inglês",
-        "skill2": "Autodidata",
-        "skill3": "Boa Comunicação",
-        "skill4": "Trabalho em Equipe",
-        "skill5": "Inteligência Emocional"
-      }
-    },
-    "Contacts": {
-      "title": "Contato"
+  "Metadata": {
+    "title": "Vandilson Brito · Desenvolvedor Full Stack",
+    "description": "Desenvolvedor Full Stack com 2 anos de experiência em TypeScript, React, Next.js e Node.js. Veja minha experiência, projetos e stack."
+  },
+  "Nav": {
+    "label": "Navegação principal",
+    "skip": "Pular para o conteúdo",
+    "experience": "experiência",
+    "projects": "projetos",
+    "stack": "stack",
+    "about": "sobre",
+    "contact": "contato",
+    "cv": "Currículo",
+    "language": "Idioma",
+    "switchTo": "Ver em inglês"
+  },
+  "Hero": {
+    "title": "Olá, eu sou o <name>Vandilson Brito</name>, desenvolvedor full stack.",
+    "subtitle": "Crio aplicações web de ponta a ponta com TypeScript, React, Next.js e Node.js — do front-end às APIs, banco de dados e deploy. Dois anos de experiência, hoje na GRM e em projetos freelance em produção.",
+    "ctaProjects": "Ver projetos",
+    "ctaCv": "Baixar CV",
+    "card": {
+      "file": "perfil.ts",
+      "role": "cargo",
+      "roleValue": "Full Stack @ GRM",
+      "freelance": "freela",
+      "freelanceValue": "OFF Confecções",
+      "location": "local",
+      "locationValue": "Florianópolis · remoto",
+      "stack": "stack",
+      "status": "status",
+      "statusValue": "aberto a oportunidades"
     }
+  },
+  "Experience": {
+    "title": "Experiência",
+    "techLabel": "Tecnologias",
+    "grm": {
+      "period": "fev 2025 → atual · remoto",
+      "role": "Desenvolvedor Full Stack",
+      "company": "GRM – Gestão Documental",
+      "bullets": {
+        "1": "50 formulários inteligentes para uma empresa de grande porte, com validações, regras de negócio e integrações via API REST.",
+        "2": "Web services em Node.js (Express) integrados à plataforma de gestão documental, com CRUD e validação de dados.",
+        "3": "Fluxos de aprovação por e-mail migrados para workflows digitais rastreáveis, do preenchimento ao documento final."
+      }
+    },
+    "freelance": {
+      "period": "abr 2025 → atual · remoto",
+      "role": "Desenvolvedor Full Stack",
+      "company": "Freelancer",
+      "bullets": {
+        "1": "<b>OFF Confecções</b> — e-commerce em produção com painel administrativo, Pix e cartão via webhooks, checkout idempotente e CI.",
+        "2": "<b>Borderless Coding</b> — plataforma de cursos Trilhas (+400 alunos) e primeira versão do site institucional."
+      }
+    }
+  },
+  "Projects": {
+    "title": "Projetos em destaque",
+    "others": "outros projetos",
+    "store": "Ver loja",
+    "demo": "Demo",
+    "code": "Código",
+    "privateCode": "código privado",
+    "newTab": "(abre em nova aba)",
+    "imageAlt": "Tela do projeto {name}",
+    "items": {
+      "off": {
+        "name": "OFF Confecções",
+        "badge": "em produção",
+        "description": "E-commerce com painel administrativo. Pix e cartão via webhooks, checkout idempotente, estoque concorrente, rate limiting e cron que cancela pedidos Pix vencidos."
+      },
+      "trilhas": {
+        "name": "Trilhas",
+        "badge": "+400 alunos",
+        "description": "Plataforma de cursos da Borderless Coding com autenticação, painel administrativo e progresso das aulas."
+      },
+      "findafriend": {
+        "name": "FindAFriend",
+        "badge": "full stack",
+        "description": "Adoção de pets: API com autenticação JWT e Docker, front-end em React, testes unitários e e2e e CI."
+      },
+      "ecofood": {
+        "name": "Ecofood",
+        "badge": "2º lugar · hackathon",
+        "description": "Monitora a validade de alimentos e sugere reaproveitamento ou doação. Equipe de 4 no Contcode Hackathon."
+      }
+    },
+    "otherItems": {
+      "patricia": "Site da Profa. Patrícia Cruz",
+      "bestTravel": "Best Travel",
+      "covid": "Dashboard COVID-19"
+    }
+  },
+  "Stack": {
+    "title": "Stack",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "quality": "Qualidade e DevOps"
+  },
+  "About": {
+    "title": "Sobre",
+    "photoAlt": "Foto de Vandilson Brito",
+    "p1": "Bacharel em Ciência e Tecnologia pela UFBA, onde comecei a programar. Trabalho com foco em Clean Code, princípios SOLID e testes automatizados.",
+    "p2": "Em 2021 fiz um intercâmbio voluntário pela Europa — de lá trouxe o inglês avançado e a facilidade de conversar com gente muito diferente, que hoje uso para levantar requisitos com clientes.",
+    "languages": "pt: nativo · en: C1 · es: básico"
+  },
+  "Contact": {
+    "title": "Bora construir algo?",
+    "cv": "Currículo"
+  },
+  "Footer": {
+    "rights": "© {year} Vandilson Brito",
+    "built": "next.js · tailwind · vercel"
   }
 }

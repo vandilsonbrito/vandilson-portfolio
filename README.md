@@ -1,6 +1,6 @@
 # Vandilson Portfólio
 
-É um página web onde me apresento e mostro minhas habilidades e projetos como desenvolvedor front-end, além de currículo e redes sociais.
+É um página web onde me apresento e mostro minhas habilidades e projetos como desenvolvedor full stack, além de currículo e redes sociais.
 
 <h2>Technologies</h2>
 

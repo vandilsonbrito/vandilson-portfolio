@@ -38,7 +38,7 @@ export default function Header() {
                     <li>
                         <a
                         className='w-fit h-full flex flex-col items-center'
-                        href="https://www.linkedin.com/in/vandilson-brito-desenvolvedor-frontend/"
+                        href="https://www.linkedin.com/in/vandilson-brito-desenvolvedor-fullstack/"
                         target="_blank"
                         rel="noopener noreferrer">
                             <FaLinkedin className="hover:translate-x-[2px] ease-in-out duration-200"/>

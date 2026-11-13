@@ -1,23 +1,23 @@
 {
-    "Home": {
-      "Banner": {
-        "title": { 
-            "part1": "Olá, ",
-            "part2": "Me chamo ",
-            "part3": "Vandilson Brito ",
-            "part4": "e sou Front-end Web Developer."
-         },
-        "button": {
-            "text": "Saiba mais"
-        }
+  "Home": {
+    "Banner": {
+      "title": {
+        "part1": "Olá, ",
+        "part2": "Me chamo ",
+        "part3": "Vandilson Brito ",
+        "part4": "e sou Desenvolvedor Full Stack."
       },
-      "About": {
-        "title": "Sobre Mim", 
-        "description": {
-            "part1": "Sou um desenvolvedor web front-end com um ano de experiência e com foco em criar aplicações web inovadoras, responsivas e amigáveis ao usuário.",
-            "part2": "Sou bacharel Interdisciplinar em Ciência e Tecnologia pela Universidade Federal da Bahia. Onde pude dar os meus primeiros passos na programação e aprender Inglês, uma habilidade fundamental nos dias de hoje.",
-            "part3": "Com  o Inglês e a vontade instríseca de viajar o mundo, tive a oportunidade de fazer um intercâmbio cultural pela Europa em 2021, fazendo trabalhos voluntários, tendo uma imersão na cultura local e desenvolvendo o Inglês. Foi uma experiência muito enriquecedora, ainda mais por ter 22 anos e estar viajando sozinho. Aprendi muito sobre pessoas e o quão é importante o respeito e empatia com o outro."
-        }
+      "button": {
+        "text": "Saiba mais"
+      }
+    },
+    "About": {
+      "title": "Sobre Mim",
+      "description": {
+        "part1": "Sou um desenvolvedor full stack com 2 anos de experiência, criando aplicações web de ponta a ponta, do front-end às APIs, banco de dados e deploy, com TypeScript, React, Next.js e Node.js.",
+        "part2": "Sou bacharel Interdisciplinar em Ciência e Tecnologia pela Universidade Federal da Bahia. Onde pude dar os meus primeiros passos na programação e aprender Inglês, uma habilidade fundamental nos dias de hoje.",
+        "part3": "Com  o Inglês e a vontade instríseca de viajar o mundo, tive a oportunidade de fazer um intercâmbio cultural pela Europa em 2021, fazendo trabalhos voluntários, tendo uma imersão na cultura local e desenvolvendo o Inglês. Foi uma experiência muito enriquecedora, ainda mais por ter 22 anos e estar viajando sozinho. Aprendi muito sobre pessoas e o quão é importante o respeito e empatia com o outro."
+      }
     },
     "Projects": {
       "title": "Projetos",
@@ -49,8 +49,16 @@
       },
       "project8": {
         "description": "Site de recomendação dos melhores livros com foco no desenvolvimento e aprendizagem pessoal. Inclui autenticação, seleção de gêneros favoritos, capacidade de filtrar gêneros e livros favoritos. Possui funcionalidade de troca de idioma (PT e EN) utilizando o conceito i18n. Construído com TypeScript, Next.js, Zustand, Firebase, Shadcn-ui e next-intl."
+      },
+      "project9": {
+        "description": "Site institucional da Borderless Coding, empresa dedicada a promover inovação, inclusão e colaboração global por meio da tecnologia e da educação. O site apresenta a visão e os programas da empresa de forma moderna, responsiva e otimizada para SEO. Possui suporte à internacionalização (PT e EN) e foi desenvolvido com Next.js, garantindo alta performance, acessibilidade e uma navegação fluida com animações e interatividade."
+      },
+      "project10": {
+        "description": "Plataforma de aprendizado online desenvolvida para a mentoria 'A Base'. Oferece uma experiência completa de Learning Paths, permitindo visualizar cursos estruturados, acompanhar o progresso marcando aulas concluídas e gerenciar o acesso em uma interface intuitiva. A autenticação é feita com Firebase e o progresso do usuário é salvo localmente. Construída com tecnologias modernas para garantir performance, escalabilidade e usabilidade."
+      },
+      "project11": {
+        "description": "Plataforma fullstack para adoção de pets, criada para conectar ONGs e abrigos a pessoas que desejam adotar. A aplicação simplifica o processo de adoção, permitindo o cadastro de pets e organizações, listagem por cidade, filtragem por características e contato direto via WhatsApp, promovendo a adoção responsável e reduzindo o abandono animal. Construído com Node.js, TypeScript e React.js contendo testes e melhores práticas como princípios SOLID."
       }
-      
     },
     "Skills": {
       "soft-skills": {

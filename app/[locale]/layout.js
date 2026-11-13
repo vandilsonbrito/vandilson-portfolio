@@ -7,7 +7,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Vandilson Portfólio",
-  description: "Portfólio de Vandilson Brito. Front-end Developer.",
+  description: "Portfólio de Vandilson Brito. Desenvolvedor Full Stack.",
 };
 
 export default async function RootLayout({ children, params: {locale} }) {

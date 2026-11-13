@@ -1,23 +1,23 @@
 {
-    "Home": {
-      "Banner": {
-        "title": { 
-            "part1": "Hello, ",
-            "part2": "My name is ",
-            "part3": "Vandilson Brito ",
-            "part4": "and I'm Front-end Web Developer."
-         },
-        "button": {
-            "text": "Read more"
-        }
+  "Home": {
+    "Banner": {
+      "title": {
+        "part1": "Hello, ",
+        "part2": "My name is ",
+        "part3": "Vandilson Brito ",
+        "part4": "and I'm a Full Stack Developer."
       },
-      "About": {
-        "title": "About Me", 
-        "description": {
-            "part1": "I'm a front-end web developer with one year of experience, focusing on creating innovative, responsive, and user-friendly web applications.",
-            "part2": "I hold a bachelor's degree in Interdisciplinary in Science and Technology from Universidade Federal da Bahia, where I began learning about algorithms, coding, and learning English.",
-            "part3": "With my passion for world travel and English B2, I had the opportunity to participate in a cultural exchange in Europe in 2021. During this time, I volunteered, immersed myself in the local culture, and further developed my English skills. It was an enriching experience, especially at 22 years old and traveling alone. I learned a lot about people and the importance of respect and empathy."
-        }
+      "button": {
+        "text": "Read more"
+      }
+    },
+    "About": {
+      "title": "About Me",
+      "description": {
+        "part1": "I'm a full stack developer with 2 years of experience, building web applications end to end, from the front-end to APIs, databases and deployment, using TypeScript, React, Next.js and Node.js.",
+        "part2": "I hold a bachelor's degree in Interdisciplinary in Science and Technology from Universidade Federal da Bahia, where I began learning about algorithms, coding, and learning English.",
+        "part3": "With my passion for world travel and English B2, I had the opportunity to participate in a cultural exchange in Europe in 2021. During this time, I volunteered, immersed myself in the local culture, and further developed my English skills. It was an enriching experience, especially at 22 years old and traveling alone. I learned a lot about people and the importance of respect and empathy."
+      }
     },
     "Projects": {
       "title": "Projects",
@@ -49,8 +49,16 @@
       },
       "project8": {
         "description": "Recommendation site for the best books focusing on personal development and learning. Includes authentication, selection of favorite genres, ability to filter genres and favorite books. It has language switching functionality (PT and EN) using the i18n concept. Built with TypeScript, Next.js, Zustand, Firebase, Shadcn-ui and next-intl."
+      },
+      "project9": {
+        "description": "Institutional website for Borderless Coding, a company focused on promoting innovation, inclusion, and global collaboration through technology and education. The site presents the company's vision and programs in a modern, responsive, and SEO-friendly way. It supports internationalization (PT and EN) and was built with Next.js to ensure high performance, accessibility, and smooth user experience with animations and interactivity."
+      },
+      "project10": {
+        "description": "Online learning platform developed for the mentorship program 'A Base'. It delivers a complete Learning Paths experience, allowing users to view structured courses, track progress by marking completed classes, and manage access through an intuitive interface. Authentication is handled by Firebase, with user progress saved locally. Built with modern technologies to ensure performance, scalability, and usability."
+      },
+      "project11": {
+        "description": "Fullstack platform for pet adoption, created to connect NGOs and shelters with people who wish to adopt. The application simplifies the adoption process by allowing the registration of pets and organizations, listing by city, filtering by characteristics, and direct contact via WhatsApp, promoting responsible adoption and reducing animal abandonment. Built with Node.js, TypeScript, and React.js, including tests and best practices such as SOLID principles."
       }
-      
     },
     "Skills": {
       "soft-skills": {

@@ -56,12 +56,12 @@ export const featuredProjects: FeaturedProject[] = [
   },
 ];
 
-export type OtherProjectId = 'bestTravel' | 'covid' | 'healthClinic';
+export type OtherProjectId = 'healthClinic' | 'bestTravel' | 'covid';
 
 export const otherProjects: { id: OtherProjectId; url: string; stack: string }[] = [
+  { id: 'healthClinic', url: 'https://health-clinic-by-vandilson.vercel.app/', stack: 'next.js · typescript · firebase' },
   { id: 'bestTravel', url: 'https://best-travel-omega.vercel.app/', stack: 'next.js · typescript · zustand' },
   { id: 'covid', url: 'https://dasboard-covid-19.vercel.app/', stack: 'next.js · typescript · leaflet' },
-  { id: 'healthClinic', url: 'https://health-clinic-by-vandilson.vercel.app/', stack: 'next.js · typescript · firebase' },
 ];
 
 export type StackGroupId = 'frontend' | 'backend' | 'quality';

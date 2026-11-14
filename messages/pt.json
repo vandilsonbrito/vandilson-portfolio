@@ -27,6 +27,17 @@
       "location": "local",
       "locationValue": "Florianópolis · remoto",
       "stack": "stack",
+      "focus": "foco",
+      "focusValue": [
+        "qualidade",
+        "testes",
+        "Clean Code"
+      ],
+      "languages": "idiomas",
+      "languagesValue": [
+        "pt",
+        "en (C1)"
+      ],
       "status": "status",
       "statusValue": "aberto a oportunidades"
     }
@@ -45,7 +56,7 @@
       }
     },
     "freelance": {
-      "period": "abr 2025 → atual · remoto",
+      "period": "out 2024 → atual · remoto",
       "role": "Desenvolvedor Full Stack",
       "company": "Freelancer",
       "bullets": {

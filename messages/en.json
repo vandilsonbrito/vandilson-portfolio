@@ -27,6 +27,17 @@
       "location": "location",
       "locationValue": "Florianópolis, Brazil · remote",
       "stack": "stack",
+      "focus": "focus",
+      "focusValue": [
+        "quality",
+        "testing",
+        "Clean Code"
+      ],
+      "languages": "languages",
+      "languagesValue": [
+        "pt",
+        "en (C1)"
+      ],
       "status": "status",
       "statusValue": "open to opportunities"
     }
@@ -45,7 +56,7 @@
       }
     },
     "freelance": {
-      "period": "Apr 2025 → present · remote",
+      "period": "Oct 2024 → present · remote",
       "role": "Full Stack Developer",
       "company": "Freelance",
       "bullets": {

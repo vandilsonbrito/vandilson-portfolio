@@ -17,15 +17,13 @@
   },
   "Hero": {
     "title": "Olá, eu sou o <name>Vandilson Brito</name>, desenvolvedor full stack.",
-    "subtitle": "Crio aplicações web de ponta a ponta com TypeScript, React, Next.js e Node.js — do front-end às APIs, banco de dados e deploy. Dois anos de experiência, hoje na GRM e em projetos freelance em produção.",
+    "subtitle": "Desenvolvedor Full-Stack especializado no ecossistema TypeScript. Crio soluções completas e escaláveis com React, Next.js e Node.js, garantindo arquitetura limpa, integração eficiente de bancos de dados e automação de deploy.",
     "ctaProjects": "Ver projetos",
     "ctaCv": "Baixar CV",
     "card": {
       "file": "perfil.ts",
       "role": "cargo",
-      "roleValue": "Full Stack @ GRM",
-      "freelance": "freela",
-      "freelanceValue": "OFF Confecções",
+      "roleValue": "Desenvolvedor Full Stack",
       "location": "local",
       "locationValue": "Florianópolis · remoto",
       "stack": "stack",
@@ -41,8 +39,8 @@
       "role": "Desenvolvedor Full Stack",
       "company": "GRM – Gestão Documental",
       "bullets": {
-        "1": "50 formulários inteligentes para uma empresa de grande porte, com validações, regras de negócio e integrações via API REST.",
-        "2": "Web services em Node.js (Express) integrados à plataforma de gestão documental, com CRUD e validação de dados.",
+        "1": "Centenas de formulários inteligentes para uma empresa de grande porte, com validações, regras de negócio e integrações via API REST.",
+        "2": "Web services em Node.js (Express) integrados à plataforma de gestão documental, com CRUD, validação de dados e cron jobs para processos agendados.",
         "3": "Fluxos de aprovação por e-mail migrados para workflows digitais rastreáveis, do preenchimento ao documento final."
       }
     },
@@ -88,9 +86,9 @@
       }
     },
     "otherItems": {
-      "patricia": "Site da Profa. Patrícia Cruz",
       "bestTravel": "Best Travel",
-      "covid": "Dashboard COVID-19"
+      "covid": "Dashboard COVID-19",
+      "healthClinic": "Health Clinic"
     }
   },
   "Stack": {
@@ -102,16 +100,15 @@
   "About": {
     "title": "Sobre",
     "photoAlt": "Foto de Vandilson Brito",
-    "p1": "Bacharel em Ciência e Tecnologia pela UFBA, onde comecei a programar. Trabalho com foco em Clean Code, princípios SOLID e testes automatizados.",
-    "p2": "Em 2021 fiz um intercâmbio voluntário pela Europa — de lá trouxe o inglês avançado e a facilidade de conversar com gente muito diferente, que hoje uso para levantar requisitos com clientes.",
-    "languages": "pt: nativo · en: C1 · es: básico"
+    "p1": "Graduado em Ciência e Tecnologia pela UFBA, onde dei meus primeiros passos na programação. Hoje, construo aplicações com foco em qualidade de software, aplicando Clean Code, princípios SOLID e testes automatizados.",
+    "p2": "Em 2021, um intercâmbio voluntário pela Europa me trouxe mais do que inglês avançado: desenvolvi uma comunicação adaptável e empatia para lidar com diferentes perfis. Hoje, aplico essa vivência diretamente na engenharia de requisitos e no alinhamento estratégico com clientes.",
+    "languages": "Português — nativo · Inglês — avançado (C1) · Espanhol — básico"
   },
   "Contact": {
     "title": "Bora construir algo?",
     "cv": "Currículo"
   },
   "Footer": {
-    "rights": "© {year} Vandilson Brito",
-    "built": "next.js · tailwind · vercel"
+    "rights": "© {year} Vandilson Brito"
   }
 }

@@ -37,7 +37,6 @@ function ProfileCard() {
   const t = useTranslations('Hero.card');
   const rows: { key: string; value: React.ReactNode }[] = [
     { key: t('role'), value: `"${t('roleValue')}"` },
-    { key: t('freelance'), value: `"${t('freelanceValue')}"` },
     { key: t('location'), value: `"${t('locationValue')}"` },
     { key: t('stack'), value: `[${heroStack.map((item) => `"${item}"`).join(', ')}]` },
     { key: t('status'), value: <span className="text-accent">&quot;{t('statusValue')}&quot;</span> },

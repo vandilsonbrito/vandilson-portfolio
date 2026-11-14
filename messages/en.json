@@ -17,15 +17,13 @@
   },
   "Hero": {
     "title": "Hi, I'm <name>Vandilson Brito</name>, a full stack developer.",
-    "subtitle": "I build web applications end to end with TypeScript, React, Next.js and Node.js — from the front-end to APIs, databases and deployment. Two years of experience, currently at GRM and on freelance projects in production.",
+    "subtitle": "Full-Stack Developer specializing in the TypeScript ecosystem. I build complete, scalable solutions with React, Next.js, and Node.js, ensuring clean architecture, efficient database integration, and deployment automation.",
     "ctaProjects": "See projects",
     "ctaCv": "Download resume",
     "card": {
       "file": "profile.ts",
       "role": "role",
-      "roleValue": "Full Stack @ GRM",
-      "freelance": "freelance",
-      "freelanceValue": "OFF Confecções",
+      "roleValue": "Full Stack Developer",
       "location": "location",
       "locationValue": "Florianópolis, Brazil · remote",
       "stack": "stack",
@@ -41,8 +39,8 @@
       "role": "Full Stack Developer",
       "company": "GRM – Gestão Documental",
       "bullets": {
-        "1": "50 smart forms for a large company with nationwide operations, with validation, business rules and REST API integrations.",
-        "2": "Node.js (Express) web services integrated with the document management platform, with CRUD and data validation.",
+        "1": "Hundreds of smart forms for a large company with nationwide operations, with validation, business rules and REST API integrations.",
+        "2": "Node.js (Express) web services integrated with the document management platform, with CRUD, data validation and cron jobs for scheduled processes.",
         "3": "Email-based approval flows migrated to traceable digital workflows, from form submission to the final document."
       }
     },
@@ -88,9 +86,9 @@
       }
     },
     "otherItems": {
-      "patricia": "Prof. Patrícia Cruz website",
       "bestTravel": "Best Travel",
-      "covid": "COVID-19 Dashboard"
+      "covid": "COVID-19 Dashboard",
+      "healthClinic": "Health Clinic"
     }
   },
   "Stack": {
@@ -102,16 +100,15 @@
   "About": {
     "title": "About",
     "photoAlt": "Photo of Vandilson Brito",
-    "p1": "Bachelor's in Science and Technology from the Federal University of Bahia (UFBA), where I started programming. I focus on Clean Code, SOLID principles and automated tests.",
-    "p2": "In 2021 I did a volunteer exchange across Europe — it gave me advanced English and an ease in talking with very different people, which I now use to gather requirements with clients.",
-    "languages": "pt: native · en: C1 · es: basic"
+    "p1": "Graduated in Science and Technology from the Federal University of Bahia (UFBA), where I took my first steps in programming. Today I build applications focused on software quality, applying Clean Code, SOLID principles and automated tests.",
+    "p2": "In 2021, a volunteer exchange across Europe gave me more than advanced English: I developed adaptable communication and empathy for working with different profiles. Today I apply that experience directly to requirements engineering and strategic alignment with clients.",
+    "languages": "Portuguese — native · English — advanced (C1) · Spanish — basic"
   },
   "Contact": {
     "title": "Let's build something?",
     "cv": "Resume"
   },
   "Footer": {
-    "rights": "© {year} Vandilson Brito",
-    "built": "next.js · tailwind · vercel"
+    "rights": "© {year} Vandilson Brito"
   }
 }

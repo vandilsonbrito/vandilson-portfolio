@@ -9,7 +9,7 @@ export function Projects() {
   return (
     <Section id="projects">
       <Container className="py-24">
-        <SectionHeading id="projects" number="02" title={t('title')} />
+        <SectionHeading id="projects" title={t('title')} />
         <ul className="grid gap-6 md:grid-cols-2">
           {featuredProjects.map((project) => {
             const name = t(`items.${project.id}.name`);

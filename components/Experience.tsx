@@ -8,7 +8,7 @@ export function Experience() {
   return (
     <Section id="experience">
       <Container className="py-24">
-        <SectionHeading id="experience" number="01" title={t('title')} />
+        <SectionHeading id="experience" title={t('title')} />
         <ol className="ml-1.5 flex flex-col gap-12 border-l border-line-strong">
           {experiences.map((job) => (
             <li key={job.id} className="relative pl-9">

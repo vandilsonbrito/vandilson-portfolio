@@ -12,16 +12,11 @@ export function Section({ id, className = '', children }: { id: string; classNam
   );
 }
 
-export function SectionHeading({ id, number, title }: { id: string; number: string; title: string }) {
+export function SectionHeading({ id, title }: { id: string; title: string }) {
   return (
-    <div className="mb-12">
-      <p aria-hidden="true" className="font-mono text-[13px] text-accent">
-        {number}
-      </p>
-      <h2 id={`${id}-title`} className="mt-2 font-display text-4xl font-semibold tracking-tight">
-        {title}
-      </h2>
-    </div>
+    <h2 id={`${id}-title`} className="mb-12 font-display text-4xl font-semibold tracking-tight">
+      {title}
+    </h2>
   );
 }
 

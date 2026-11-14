@@ -8,7 +8,7 @@ export function Stack() {
   return (
     <Section id="stack">
       <Container className="py-24">
-        <SectionHeading id="stack" number="03" title={t('title')} />
+        <SectionHeading id="stack" title={t('title')} />
         <div className="grid grid-cols-[repeat(auto-fit,minmax(min(300px,100%),1fr))] gap-6">
           {stackGroups.map((group) => (
             <div key={group.id} className="rounded-2xl border border-line bg-surface p-6">

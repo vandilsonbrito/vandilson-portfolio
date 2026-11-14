@@ -45,9 +45,8 @@ export function Footer() {
   const t = useTranslations('Footer');
   return (
     <footer>
-      <Container className="flex flex-wrap justify-between gap-2 pb-12 font-mono text-[13px] text-muted">
-        <span>{t('rights', { year: new Date().getFullYear() })}</span>
-        <span>{t('built')}</span>
+      <Container className="pb-12 font-mono text-[13px] text-muted">
+        <p>{t('rights', { year: new Date().getFullYear() })}</p>
       </Container>
     </footer>
   );
